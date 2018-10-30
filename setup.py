@@ -1,9 +1,10 @@
+import os
 import telebot
 from telebot.types import Message, InputTextMessageContent,\
     InlineKeyboardMarkup, InlineKeyboardButton, InlineQueryResultArticle
 
 
-TOKEN = "612787394:AAF6Z2SnlrF2CPddvH_2oYCUdvi6cE4wiow"
+TOKEN = os.environ['TOKEN']
 
 bot = telebot.TeleBot(TOKEN)
 
