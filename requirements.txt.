@@ -1,0 +1,6 @@
+heroku==0.1.4
+pyTelegramBotAPI==3.6.6
+python-dateutil==1.5
+requests==2.7.0
+six==1.11.0
+telebot==0.0.3
